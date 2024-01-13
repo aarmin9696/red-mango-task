@@ -1,0 +1,308 @@
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.buttons button{
+  padding: 1%;
+  font-size: large;
+  color: rgb(78, 147, 250);
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/*Assignment1*/
+
+.container {
+  position: relative;
+  width: 90%;
+  height: 85vh;
+  border: 10px solid rgb(55, 169, 214);
+  margin: 3% 4%;
+  color: grey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-left {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  text-align: left;
+}
+
+.top-right {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  text-align: right;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  text-align: left;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  text-align: right;
+}
+
+.container div {
+  width: 20%; 
+  word-wrap: break-word;
+}
+
+/*Assignment2 */
+
+.container2{
+  text-align: center;
+  margin: 10%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container2 .open{
+  position: relative;
+  bottom: 15%;
+  font-size: x-large;
+}
+
+.custom-modal {
+  background-color: white; 
+}
+
+.custom-modal .modal-content {
+  background-color: rgb(78, 147, 250);
+}
+
+.custom-modal .modal-header,
+.custom-modal .modal-body,
+.custom-modal .modal-footer {
+  border: none;
+}
+
+.custom-modal .modal-body {
+  min-height: 50vh; /* Set a minimum height for the modal body */
+}
+
+.custom-modal .modal-footer button {
+  margin: 0 auto;
+}
+
+
+/* Assignment 3 */
+
+.cont{
+  display: flex;
+  
+}
+
+.left{
+  width: 20%;
+  padding: 3% 5%;
+  background-color: lightgrey;
+  height: 100vh;
+  font-size: larger;
+}
+
+.right{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  padding: 3%;
+  align-items: center;
+  text-align: center;
+  gap: 5%;
+}
+
+
+.right div{
+  background-color: rgb(78, 147, 250);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right div button{
+  padding: 2% 5%;
+  font-size: large;
+  color: rgb(78, 147, 250);
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.fullscreen-modal {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+
+
+/* Assignment 4 */
+
+.container3{
+  margin: 4% 8%;
+  padding: 1% 1% 0 1%;
+  background-color: rgb(238,239,240);
+}
+
+.container3 .open{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.close{
+  float: right;
+  font-size: 3rem;
+  color: grey;
+}
+
+.spinner{
+  background-color: rgb(238,239,240);
+  font-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.check{
+  font-size: 4rem;
+}
+
+.container3 {
+  position: relative;
+}
+
+.corner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-bottom: 150px solid rgb(78, 147, 250);
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(78, 147, 250);
+}
+
+.triangle-text-container{
+  position: absolute;
+  top: 6%;
+  left: 0%;
+  color: white;
+  transform: rotate(-45deg);  
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* Assignment five */
+ 
+.align{
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.download{
+  margin-bottom: 3%;
+  font-size: 4rem;
+  fill: rgb(78, 147, 250);
+}
+
+.dwnld-btn{
+  border-radius: 60px;
+  border: none;
+}
+
+.progress{
+  width: 500px;
+}
+
+.progress-container {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.message{
+  font-size: 5rem;
+  color: rgb(78, 147, 250);
+  
+}
+
+.message-icon {
+  position: relative;
+  top: 0;
+  transform: translateX(-50%);
+  transition: left 0.3s ease-in-out; /* Added transition property */
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Assignment 6 */
+
+.container6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.centered-image {
+  width: 60%;
+  height: auto;
+}
+
+.centered-text {
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 40%;
+  border: 3px solid white;
+  padding: 6% 3%;
+}
+
+
+
+.centered-text span{
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
